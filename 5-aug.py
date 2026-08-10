@@ -1,3 +1,4 @@
+import numpy as np
 print('Hello Class')
 
 x = 3
@@ -109,6 +110,7 @@ def sign(x):
         return '-ve'
 
     sign(1)
+
 
 
 
