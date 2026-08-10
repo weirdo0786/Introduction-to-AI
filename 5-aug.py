@@ -102,5 +102,14 @@ print(d[(1,2)])
 print(d)
 
 
+def sign(x):
+    if x > 0:
+        return '+ve'
+    elif x < 0:
+        return '-ve'
+
+    sign(1)
+
+
 
 
