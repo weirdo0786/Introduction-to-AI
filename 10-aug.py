@@ -151,3 +151,27 @@ a[1,2] = 67
 print(a)
 print(b)
 # It is happening because of both a and b pointing to same memory locations
+
+# A 3d array: shape (2,3,4)
+# (height, width< channels)
+a = np.ones((2, 3, 4))
+print(a)
+print(a.dtype)
+print(f'Shape: {a.shape}')
+print(f'Sum over axis 0: {np.sum(a, axis=0).shape}')
+print(f'Sum over axis 1: {np.sum(a, axis=1).shape}')
+print(f'Sum over axis 2: {np.sum(a, axis=2).shape}')
+print(f'Sum over axis (0,2): {np.sum(a, axis=(0, 2)).shape}')
+
+
+row_r1 = a[1,:]
+row_r2 = a[1:2, :]
+row_r3 = a[[1], :]
+print(row_r1, row_r1.shape)
+print(row_r2, row_r2.shape)
+print(row_r3, row_r3.shape)
+
+
+# what is your dileverarlers
+# how you going or define no of weesk to complete
+
