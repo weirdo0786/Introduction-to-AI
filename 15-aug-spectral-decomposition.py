@@ -132,7 +132,12 @@ print(np.allclose(a, A.real))
 # print(P.T.real)
 # print(P @ P.T)
 
-print('Here Transpose is now working because it is not Orthogonal matrix. So better to be work for A^-1 rather than A^T')
+print('Here Transpose is now working because it is  Orthogonal matrix. So better to be work for A^-1 rather than A^T')
+
+
+
+
+
 
 print('======================')
 print('Now we have to calculate for A^K')
@@ -143,10 +148,6 @@ Lambda_K = np.diag(eigenvalues ** K)
 A_K = P @ Lambda_K @ P_inverse
 print("\nA^42:")
 print(np.round(A_K.real).astype(float))
-
-
-
-
 # Calculating A^K:
 
 

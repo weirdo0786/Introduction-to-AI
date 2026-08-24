@@ -10,6 +10,7 @@ print("\nEigenvalues:")
 print(eigenvalues.real.astype(int))
 print("\nEigenvectors:")
 print(eigenvectors.real.astype(float))
+print(np.round(eigenvectors.real.astype(float), 3))
 
 
 
