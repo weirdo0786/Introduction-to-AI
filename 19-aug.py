@@ -8,6 +8,10 @@ X = np.array([
     [3, 7, 5]
 ], dtype=float)
 
+# y = np.array([[1],[2],[3]], dtype=float)
+# print(y)
+
+
 print("Original Matrix X:")
 print(X)
 

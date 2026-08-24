@@ -5,17 +5,9 @@ A = np.array([[1, 2],
 
 B = np.array([[5, 6],
               [7, 8]])
-
 print(A @ B)
-
-
 result = np.dot(A, B)
 print("a.b =", result)
-
-
-
-
-
 # A = np.array([[1, 2],
 #               [3, 4]])
 #

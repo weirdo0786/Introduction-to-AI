@@ -1,6 +1,8 @@
 import numpy as np
 a = np.array([[1, 0, 3],[10, 1, 7],[-5, 0, -3]])
 b = np.array([5, 4, 6])
+print(a.shape)
+print(np.linalg.det(a))
 print('Shape of A : {}'.format(a.shape))
 print('Rank of A: {}'.format(np.linalg.matrix_rank(a)))
 x = np.linalg.inv(a) @ b
